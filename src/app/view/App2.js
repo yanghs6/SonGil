@@ -62,7 +62,7 @@ React.useEffect(()=> {
       <div
         // style="padding:5px"
         style={{padding:5+'px', fontSize:20}}
-      > 예시입니다. </div>
+      > TFJS와 리액트 사용한 사물 인식 </div>
       <div
         style={{padding:5+'px'}}
         ref={figures}></div>
