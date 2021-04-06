@@ -1,3 +1,29 @@
+# Nicholas Renotte
+
+## 1. Real Time AI HAND POSE Estimation with Javascript, Tensorflow.JS and React.JS    
+- 가장 처음 작성한 예제
+- 해당 코드: [src/app/view/app_hand.js](../react_ex/src/app/view/app_hand.js)
+- 이후 차례: [src/app/view/app_hand_pose.js](../react_ex/src/app/view/app_hand_pose.js)
+- 참고 링크: https://www.youtube.com/watch?v=f7uBsb-0sGQ
+
+## 2. Real Time AI GESTURE RECOGNITION with Tensorflow.JS + React.JS + Fingerpose
+- fingerpose를 이용한 손동작 인식
+- 모든 손동작을 직접 입력함 → 비효율적
+- 해당 코드: [src/app/view/app_hand_pose.js](../react_ex/src/app/view/app_hand_pose.js)
+- 이전 차레: [src/app/view/app_hand.js](../react_ex/src/app/view/app_hand.js)
+- 이후 차례: [src/app/view/app_hand_deeplearning.js](../react_ex/src/app/view/app_hand_deeplearning.js)
+- 참고 링크: https://www.youtube.com/watch?v=9MTiQMxTXPE
+
+## 3. Building a Real Time Sign Language Detection App with React.JS and Tensorflow.JS | Deep Learning
+- Deeplearning 이용한 손동작 인식...?
+- 트랜스퍼 러닝 사용
+- 해당 코드: src
+- 이전 차레: [src/app/view/app_hand_pose.js](../react_ex/src/app/view/app_hand_pose.js)
+- 이후 차례: -
+- 참고 링크: https://www.youtube.com/watch?v=ZTSRZt04JkY
+
+<!--
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +94,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+-->

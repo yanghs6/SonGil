@@ -4,12 +4,14 @@ import './index.css';
 import App from './app/view/App';
 import App2 from './app/view/App2';
 import App_hand_pose from './app/view/app_hand_pose';
+import App_hand_pose_deeplearning from './app/view/app_hand_deeplearning';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>  
     {/* <App2 /> */}
-    <App_hand_pose />
+    {/* <App_hand_pose /> */}
+    <App_hand_pose_deeplearning />
   </React.StrictMode>,
   document.getElementById('root')
 );
