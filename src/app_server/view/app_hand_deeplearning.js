@@ -1,8 +1,6 @@
 /*
   - 딥러닝 이용한 손동작 인식
   - 참고 링크: https://www.youtube.com/watch?v=ZTSRZt04JkY
-  - 이전 차례: app_hand.js
-  - 이후 차례: x 
 */
 
 // Import dependencies
@@ -23,13 +21,19 @@ function App() {
   const runCoco = async () => {
     // 3. TODO - Load network 
     // e.g. const net = await cocossd.load();
+    // 
     // https://tensorflow-realtimemodel-example.s3.jp-tok.cloud-object-storage.appdomain.cloud/model.json
-    const net = await tf.loadGraphModel('https://tensorflow-realtimemodel-example.s3.jp-tok.cloud-object-storage.appdomain.cloud/model.json')
+    // 해성
+    // https://tensorflow-realtimemodel-11.s3.jp-tok.cloud-object-storage.appdomain.cloud/model.json
+    // 해성+기웅
+    // https://tensorflow-realtimemodel-hskw.s3.jp-tok.cloud-object-storage.appdomain.cloud/model.json
+    const net = await tf.loadGraphModel('https://tensorflow-realtimemodel-hskw.s3.jp-tok.cloud-object-storage.appdomain.cloud/model.json')
+
     
     //  Loop and detect hands
     setInterval(() => {
       detect(net);
-    }, 16.7);
+    }, 10);
   };
 
   const detect = async (net) => {

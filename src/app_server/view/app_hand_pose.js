@@ -15,8 +15,8 @@ import {drawHand} from '../controller/hand_pose_utilities';
 
 // import new stuff
 import * as fp from "fingerpose";
-import victory from "../../static/victory.png";
-import thumbs_up from "../../static/thumbs_up.png";
+import victory from "../../public/victory.png";
+import thumbs_up from "../../public/thumbs_up.png";
 
 function App() {
   const webcamRef = useRef(null);

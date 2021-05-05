@@ -1,10 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './app/view/App';
-import App2 from './app/view/App2';
-import App_hand_pose from './app/view/app_hand_pose';
-import App_hand_pose_deeplearning from './app/view/app_hand_deeplearning';
+import App from './app_server/view/App';
+import App2 from './app_server/view/App2';
+import App_hand_pose from './app_server/view/app_hand_pose';
+import App_hand_pose_deeplearning from './app_server/view/app_hand_deeplearning';
+// import My_hand_pose_deeplearning from './app_server/view/my_hand_deeplearning';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
